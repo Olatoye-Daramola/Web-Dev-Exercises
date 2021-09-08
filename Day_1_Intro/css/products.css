@@ -16,3 +16,13 @@ p {
 body {
     background-color: #d8f3dc;
 }
+
+li {
+    list-style: none;
+    display: inline;
+    margin-right: 8px;
+}
+
+#home {
+    color: brown;
+}
