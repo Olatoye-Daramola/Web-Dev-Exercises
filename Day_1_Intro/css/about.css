@@ -1,0 +1,18 @@
+h1 {
+    font-size: 24pt;
+    color: #023e8a;
+}
+
+h2 {
+    font-size: 18pt;
+    font-weight: bold;
+    color: #0077b6;
+}
+
+p {
+    color: #03045e;
+}
+
+body {
+    background-color: #caf0f8;
+}
