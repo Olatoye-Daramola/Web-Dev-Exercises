@@ -31,6 +31,16 @@ li {
     margin-right: 8px;
 }
 
+a:link {
+    text-decoration: none;
+    color: firebrick;
+}
+
+a:visited {
+    text-decoration: none;
+    color: moccasin;
+}
+
 .skills {
     color: saddlebrown;
 }
