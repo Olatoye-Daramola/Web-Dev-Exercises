@@ -1,18 +1,22 @@
 h1 {
     font-size: 24pt;
-    color: #005f73;
+    color: #9c6644;
 }
 
 h2 {
     font-size: 18pt;
     font-weight: bold;
-    color: #0a9396;
+    color: #b08968;
 }
 
 p {
-    color: #e9d8a6;
+    color: #7f5539;
+}
+
+img {
+    border-radius: 100%;
 }
 
 body {
-    background-color: #001219;
+    background-color: #ede0d4;
 }
