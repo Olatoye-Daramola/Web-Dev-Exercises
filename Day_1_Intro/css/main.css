@@ -1,3 +1,7 @@
+body {
+    text-align: center;
+}
+
 h1 {
     font-size: 24pt;
     color: #9c6644;
@@ -19,4 +23,25 @@ img {
 
 body {
     background-color: #ede0d4;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    margin-right: 8px;
+}
+
+.skills {
+    color: saddlebrown;
+}
+
+#home {
+    color: brown;
+}
+
+[title] {
+    cursor: help;
+    padding-bottom: 5px;
+    border-bottom: 2px dotted;
+    text-decoration: none;
 }
