@@ -1,0 +1,20 @@
+.name {
+    background-color: antiquewhite;
+    /* background-image: url(https://cdn.britannica.com/68/5068-004-72A3F250/Flag-Nigeria.jpg); */
+}
+
+.country {
+    background-color: beige;
+}
+
+.history {
+    background-color: lightgoldenrodyellow;
+}
+
+tr:hover {
+    background-color: #9e9e9e;
+}
+
+tr:nth-child(even) {
+    background-color: lightgray;
+}
