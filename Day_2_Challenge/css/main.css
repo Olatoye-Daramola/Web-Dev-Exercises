@@ -1,0 +1,23 @@
+table {
+    text-align: center;
+}
+
+thead {
+    background-color: darkgreen;
+}
+
+.days {
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+td {
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+td:hover {
+    background-color: royalblue;
+}
+
+.spaceBar {
+    box-shadow: none;
+}
