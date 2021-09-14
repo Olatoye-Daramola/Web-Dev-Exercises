@@ -1,26 +1,50 @@
 body {
     margin: 0px;
+    padding: 2% 10%;
 }
 
 .form {
     width: 500px;
-    padding: 1%;
-    background-color: cornsilk;
+    margin: 5em 0em;
 }
 
-label {
+input::placeholder,
+textarea::placeholder {
     color: olivedrab;
 }
 
 input {
     margin-bottom: 1em;
+    width: 300px;
 }
 
 button {
     color: mintcream;
     background-color: olivedrab;
+    padding: 1em;
 }
 
 button:hover {
     background-color: olive;
+}
+
+p.ex1 {
+    display: none;
+}
+
+p.ex2 {
+    display: block;
+}
+
+p.ex3 {
+    display: inline;
+}
+
+p.ex4 {
+    display: inline-block;
+}
+
+li {
+    display: inline;
+    margin-right: 1.5em;
 }
