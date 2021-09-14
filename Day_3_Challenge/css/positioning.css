@@ -1,0 +1,19 @@
+body {
+    margin: 0em;
+    padding: 2% 10%;
+}
+
+img {
+    width: 15%;
+    position: absolute;
+    top: 150px;
+    left: 200px;
+    z-index: 5;
+}
+
+figcaption {
+    position: absolute;
+    top: 90px;
+    left: 140px;
+    z-index: 1;
+}
