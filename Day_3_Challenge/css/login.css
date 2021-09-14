@@ -2,3 +2,78 @@
     font-family: 'Urbanist', sans-serif;
 }
 
+.container {
+    background-color: rgb(240, 240, 240);
+    width: 350px;
+    height: 400px;
+    padding: 2em;
+    margin: 200px auto auto;
+    text-align: center;
+    border-radius: 20px;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 35px;
+    color: darkgreen;
+    margin-bottom: 60px;
+}
+
+.login-inner {
+    position: relative;
+    width: 150px;
+    height: 35px;
+    border-radius: 10px 10px 12px 12px;
+    background-color: rgb(150, 231, 150);
+    font-weight: 600;
+    font-size: 20px;
+    color: darkgreen;
+    align-items: center;
+}
+
+.login-inner:hover {
+    background-color: rgb(132, 216, 132);
+}
+
+.login-outer {
+    position: absolute;
+    background-color: darkgreen;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 20px 105px;
+}
+
+.login-outer:hover {
+    background-color: rgb(4, 87, 4);
+}
+  
+input {
+    position: relative;
+    width: 80%;
+    border: none;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+}
+
+input::placeholder {
+    color: darkgreen;
+    opacity: 50%;
+    font-style: italic;
+}
+
+input:hover {
+    background-color: rgb(241, 241, 241);
+}
+
+.input-field {
+    position: relative;
+}
+  
+.far {
+    position: absolute;
+    padding: 1.6em 0em;
+    right: 3em;
+    color: darkgreen;
+}
