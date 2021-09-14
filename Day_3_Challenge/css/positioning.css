@@ -1,4 +1,4 @@
-body {
+/* body {
     margin: 0em;
     padding: 2% 10%;
 }
@@ -15,7 +15,17 @@ figcaption {
     position: absolute;
     color: white;
     top: 160px;
-    /* left: 192px; */
+    left: 192px;
     left: 250px;
     z-index: 4;
+} */
+
+figure {
+    width: 200px;
+    float: left;
+    margin: 0%;
+}
+
+.first {
+    clear: left;
 }
