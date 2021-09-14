@@ -1,7 +1,26 @@
+body {
+    margin: 0px;
+}
+
+.form {
+    width: 500px;
+    padding: 1%;
+    background-color: cornsilk;
+}
+
 label {
-    float: left;
+    color: olivedrab;
 }
 
 input {
-    float: right;
+    margin-bottom: 1em;
+}
+
+button {
+    color: mintcream;
+    background-color: olivedrab;
+}
+
+button:hover {
+    background-color: olive;
 }
