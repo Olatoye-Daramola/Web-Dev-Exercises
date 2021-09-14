@@ -8,12 +8,14 @@ img {
     position: absolute;
     top: 150px;
     left: 200px;
-    z-index: 5;
+    z-index: 1;
 }
 
 figcaption {
     position: absolute;
-    top: 90px;
-    left: 140px;
-    z-index: 1;
+    color: white;
+    top: 160px;
+    /* left: 192px; */
+    left: 250px;
+    z-index: 4;
 }
