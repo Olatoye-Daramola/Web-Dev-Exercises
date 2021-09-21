@@ -1,0 +1,33 @@
+body {
+    background-color: pink;
+    padding: 0%;
+}
+
+img {
+    width: 100%;
+    margin: 0%;
+}
+
+
+
+@media screen and (max-width: 480px){
+    body {
+        background-color: lightgreen;
+    }
+
+    img {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+    body {
+        background-color: maroon;
+    }
+}
+
+@media screen and (min-width: 769px){
+    body {
+        background-color: pink;
+    }
+}
