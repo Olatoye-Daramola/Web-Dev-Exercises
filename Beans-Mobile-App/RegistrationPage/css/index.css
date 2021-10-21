@@ -58,19 +58,19 @@ h3 {
 }
 
 p {
-    color: #F5C526;
+    color: #b0bf1a;
 }
 
 label {
     font-size: 13px;
-    color: #F5C526;
+    color: #b0bf1a;
 }
 
 input[type="text"],
 input[type="password"],
 input[type="tel"] {
     border: none;
-    border-radius: 10px;
+    border-radius: 4px;
     display: block;
     font-size: 12px;
     padding-left: 5%;
@@ -81,26 +81,26 @@ input[type="tel"] {
 }
 
 .register_btn {
-    background-color: #F5C526;
-    color: #242423;
+    background-color: #b0bf1a;
+    color: #fff;
     font-weight: bold;
-    border-radius: 10px;
+    border-radius: 4px;
     border: none;
     display: block;
     position: relative;
     bottom: 20px;
-    box-shadow: 0 7px #d5a300;
+    box-shadow: 0 7px #89960b;
     width: 100%;
     height: 45px;
     margin-top: 6rem;
 }
 
 .register_btn:hover {
-    background-color: #f3be0f
+    background-color: #a2b010;
 }
 
 .register_btn:active {
-    background-color: #f3be0f;
-    box-shadow: 0 5px #d5a300;
+    background-color: #a2b010;
+    box-shadow: 0 5px #89960b;
     transform: translateY(2px);
 }
