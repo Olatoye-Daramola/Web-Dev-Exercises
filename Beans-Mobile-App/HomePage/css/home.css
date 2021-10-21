@@ -55,7 +55,7 @@ body {
 .user_card {
     background-color: #B0BF1A;
     border-radius: 4px;
-    min-height: 20vh;
+    min-height: 15vh;
     /*border: 1px solid #fff;*/
     padding: 10px 0;
 }
@@ -120,4 +120,70 @@ body {
     font-size: 14px;
     border-radius: 4px;
     padding: 10px 20px;
+}
+
+.ranking_container {
+    background-color: #fff;
+    padding: 20px;
+    min-height: 10vh;
+    border-radius: 4px;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ewa_ranking h3 {
+    color: #242424;
+    font-weight: bold;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.ewa_ranking p {
+    margin: 0;
+    font-size: 11px;
+    color: #242423;
+}
+
+.ewa_ranking div {
+    background-color: #242423;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 4px;
+    font-size: 12px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.ewa_point_score {
+    text-align: center;
+    background-color: #97a40c;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.ewa_point_score p, span {
+    font-size: 11px;
+    color: #242423;
+    margin-top: 0;
+}
+
+.ewa_point_score .score{
+    font-size: 70px;
+    font-weight: bold;
+    color: #fff;
+    /*padding: 5px 10px;*/
+    text-align: center;
+}
+
+.fas {
+    color: #97a40c;
+    margin-top: 10px;
+    transform: rotate(45deg);
+}
+
+.far {
+    color: #242423;
+    margin-top: 10px;
+    transform: rotate(45deg);
 }
