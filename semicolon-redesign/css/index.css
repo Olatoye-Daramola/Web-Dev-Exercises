@@ -11,6 +11,9 @@ body {
     align-items: center;
 }
 
+
+/*----------------- NAVBAR -----------------*/
+
 .navbar {
     background-color: white;
     padding: 13px;
@@ -57,6 +60,7 @@ body {
 .unfilled-btn {
     background-color: white;
     color: #FF2E2E;
+    font-size: 18px;
     font-weight: bold;
     border-radius: 4px;
     border: 1px solid #FF2E2E;
@@ -69,6 +73,7 @@ body {
 .filled-btn {
     background-color: #FF2E2E;
     color: #fff;
+    font-size: 18px;
     font-weight: bold;
     border-radius: 4px;
     border: none;
@@ -78,6 +83,9 @@ body {
     height: 53px;
     margin-left: 30px;
 }
+
+
+/*----------------- SEGMENT ONE -----------------*/
 
 .segment-one-bg {
     padding: 60px;
@@ -108,7 +116,7 @@ body {
     font-size:18px;
     font-weight: 300;
     line-height: 30px;
-    margin-top: 10px;
+    margin-top: 12px;
 }
 
 .cta-buttons {
@@ -119,6 +127,7 @@ body {
 .cta-unfilled-btn {
     background-color: white;
     color: #FF2E2E;
+    font-size: 18px;
     font-weight: bold;
     border-radius: 4px;
     border: 1px solid #FF2E2E;
@@ -131,6 +140,7 @@ body {
 .cta-filled-btn {
     background-color: #FF2E2E;
     color: #fff;
+    font-size: 18px;
     font-weight: bold;
     border-radius: 4px;
     border: none;
@@ -149,4 +159,55 @@ body {
 .intro-image img {
     position: relative;
     left: 360px;
+}
+
+
+/*----------------- SEGMENT TWO -----------------*/
+
+.segment-two-bg {
+    padding: 60px;
+    background-color: #FFF2C7;
+}
+
+.segment-two {
+    /*width: 1300px;*/
+    padding: 5px 60px;
+}
+
+.segment-two-bg .segment-two h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #960C0C;
+    margin: 0;
+}
+
+.down-nonsense .down-right-shii {
+    margin-top: 50px;
+    width: 30%;
+    position: relative;
+    left: 70%;
+    /*float: right;*/
+}
+
+.segment-two-bg .segment-two p {
+    color: #000;
+    font-size:18px;
+    font-weight: lighter;
+    line-height: 30px;
+    margin-top: 12px;
+}
+
+.more-btn {
+    width: 300px;
+    height: 50px;
+    left: 145px;
+    top: 1029px;
+    background: #FFF6D7;
+    border: 1px solid #960C0C;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: #960C0C;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 40px;
 }
